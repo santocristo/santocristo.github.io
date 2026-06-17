@@ -122,5 +122,15 @@
   "contact_wa_h": "Fale pelo WhatsApp",
   "contact_wa_p": "Toque no botão para abrir uma conversa já no nosso canal de sugestões.",
   "contact_wa_btn": "Abrir conversa no WhatsApp",
-  "contact_wa_note": "Atendimento por mensagem. Responderemos assim que possível."
+  "contact_wa_note": "Atendimento por mensagem. Responderemos assim que possível.",
+
+  "nav_destaques": "Destaques",
+  "des_h": "Destaques do Noroeste Gaúcho",
+  "des_lead": "Dos grandes ícones da região aos sabores e ao agroturismo de Santo Cristo. Conheça o que faz o Noroeste Gaúcho um destino único.",
+  "des_icons_h": "Ícones do Noroeste Gaúcho",
+  "des_icons_p": "Marcos naturais e históricos que projetam a região no mapa do turismo gaúcho.",
+  "des_flavors_h": "Sabores e agroturismo",
+  "des_flavors_p": "Experiências de Santo Cristo que unem trabalho, tradição e sabor colonial.",
+  "des_credits_h": "Créditos das imagens",
+  "des_follow": "Ver no Instagram"
 }

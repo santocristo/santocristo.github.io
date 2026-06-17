@@ -122,5 +122,15 @@
   "contact_wa_h": "Chat on WhatsApp",
   "contact_wa_p": "Tap the button to open a chat in our suggestions channel.",
   "contact_wa_btn": "Open WhatsApp chat",
-  "contact_wa_note": "Message-based support. We'll reply as soon as possible."
+  "contact_wa_note": "Message-based support. We'll reply as soon as possible.",
+
+  "nav_destaques": "Highlights",
+  "des_h": "Highlights of Northwest RS",
+  "des_lead": "From the region's great icons to the flavors and agritourism of Santo Cristo. Discover what makes Northwest RS a unique destination.",
+  "des_icons_h": "Icons of Northwest RS",
+  "des_icons_p": "Natural and historic landmarks that put the region on the tourism map.",
+  "des_flavors_h": "Flavors and agritourism",
+  "des_flavors_p": "Santo Cristo experiences blending work, tradition and colonial flavor.",
+  "des_credits_h": "Image credits",
+  "des_follow": "View on Instagram"
 }
