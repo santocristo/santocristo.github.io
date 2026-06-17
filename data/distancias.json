@@ -1,0 +1,9 @@
+[
+  { "destino": "Santa Rosa", "km": 20, "tipo": "cidade", "obs": "Cidade-polo regional, com aeroporto" },
+  { "destino": "Porto Mauá", "km": 35, "tipo": "porto", "obs": "Travessia de balsa para Alba Posse (Argentina)" },
+  { "destino": "Porto Xavier", "km": 70, "tipo": "porto", "obs": "Travessia de balsa para San Javier (Argentina)" },
+  { "destino": "Porto Vera Cruz", "km": 45, "tipo": "porto", "obs": "Porto no Rio Uruguai, fronteira com a Argentina" },
+  { "destino": "Ijuí", "km": 95, "tipo": "cidade", "obs": "Importante centro regional" },
+  { "destino": "Santo Ângelo", "km": 90, "tipo": "cidade", "obs": "Rota das Missões / aeroporto regional" },
+  { "destino": "Porto Alegre", "km": 516, "tipo": "capital", "obs": "Capital do estado" }
+]

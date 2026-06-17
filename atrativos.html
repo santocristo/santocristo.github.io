@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Atrativos turísticos · Santo Cristo-RS</title>
+  <meta name="description" content="Atrativos de Santo Cristo-RS: Lago Azul Acqua Park, Hotel Fazenda 3 Cascatas, Igreja Matriz, pórtico, balneários, cervejaria, vinho colonial e mais — com mapa." />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Archivo:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/app.js" defer></script>
+  <script src="js/content.js" defer></script>
+</head>
+<body>
+  <div id="header-slot"></div>
+
+  <section class="page-hero">
+    <div class="wrap">
+      <div class="breadcrumb"><a href="index.html" data-i18n="nav_home">Início</a> · <span data-i18n="nav_attractions">Atrativos</span></div>
+      <h1 data-i18n="atr_h">Atrativos turísticos</h1>
+      <p class="lead" data-i18n="atr_lead">Do maior parque aquático do noroeste gaúcho às cachoeiras, à fé, à cultura germânica e aos sabores coloniais. Filtre por categoria e explore.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="filters" id="filters"></div>
+      <div class="grid grid-3" id="atrativos-grid"></div>
+    </div>
+  </section>
+
+  <section class="section section--cream">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow" data-i18n="atr_map_h">Mapa dos atrativos</span>
+        <h2 data-i18n="atr_map_h">Mapa dos atrativos</h2>
+        <p data-i18n="atr_map_note">Localizações aproximadas, para orientação. Confirme endereços e horários junto a cada estabelecimento.</p>
+      </div>
+      <div id="map" class="reveal"></div>
+    </div>
+  </section>
+
+  <div id="footer-slot"></div>
+</body>
+</html>

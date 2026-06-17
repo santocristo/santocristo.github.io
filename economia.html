@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Economia & Agro · Santo Cristo-RS · Hexacampeã em leite e suínos</title>
+  <meta name="description" content="Santo Cristo-RS é hexacampeã estadual em produção de leite (75,2 mi litros/ano) e suínos (138 mil cabeças), além de soja, milho, trigo e agroindústrias premiadas." />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Archivo:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="js/app.js" defer></script>
+  <style>
+    .rank { display:grid; gap:12px; }
+    .rank-row { display:grid; grid-template-columns: 160px 1fr auto; gap:12px; align-items:center; }
+    .rank-row .who { font-weight:600; color:var(--green-ink); font-size:0.92rem; }
+    .rank-bar { background:var(--line); border-radius:999px; height:16px; overflow:hidden; }
+    .rank-bar > span { display:block; height:100%; border-radius:999px; background:linear-gradient(90deg,var(--teal),var(--green)); }
+    .rank-row.is-top .rank-bar > span { background:linear-gradient(90deg,var(--gold-soft),var(--gold)); }
+    .rank-row.is-top .who { color:var(--gold); }
+    .rank-val { font-weight:700; color:var(--green-ink); font-size:0.9rem; white-space:nowrap; }
+    @media (max-width:560px){ .rank-row{ grid-template-columns: 110px 1fr; } .rank-val{ grid-column:2; } }
+  </style>
+</head>
+<body>
+  <div id="header-slot"></div>
+
+  <section class="page-hero">
+    <div class="wrap">
+      <div class="breadcrumb"><a href="index.html" data-i18n="nav_home">Início</a> · <span data-i18n="nav_economy">Economia & Agro</span></div>
+      <h1 data-i18n="eco_h">Economia & Agro</h1>
+      <p class="lead" data-i18n="eco_lead">A vocação produtiva que faz de Santo Cristo referência no Rio Grande do Sul.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap split">
+      <div class="reveal">
+        <span class="eyebrow" data-i18n="eco_champ_pre">Hexacampeã estadual</span>
+        <h2 style="margin:12px 0 16px;" data-i18n="eco_champ_h">Líder do RS em leite e suínos</h2>
+        <p class="lead" data-i18n="eco_champ_p">Em 2024, pelo sexto ano consecutivo, Santo Cristo foi o maior produtor de leite e de suínos do Rio Grande do Sul — superando municípios muito maiores em população.</p>
+      </div>
+      <div class="grid grid-2 reveal" data-delay="120" style="gap:14px;">
+        <div class="stat"><div class="num">75,2 mi</div><div class="lbl" data-i18n="eco_milk_stat">milhões de litros de leite por ano</div></div>
+        <div class="stat"><div class="num">~206 mil</div><div class="lbl" data-i18n="eco_milk_day">mil litros por dia</div></div>
+        <div class="stat"><div class="num">138.222</div><div class="lbl" data-i18n="eco_pork_stat">cabeças de suínos</div></div>
+        <div class="stat"><div class="num">6</div><div class="lbl" data-i18n="home_stat_champ">anos seguidos líder em leite e suínos no RS</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--cream">
+    <div class="wrap">
+      <div class="grid grid-2" style="gap:38px;align-items:start;">
+        <div class="reveal">
+          <h3 style="margin:0 0 18px;" data-i18n="eco_milk_h">Produção de leite — 2024 (mil litros)</h3>
+          <div class="rank" id="rank-milk"></div>
+        </div>
+        <div class="reveal" data-delay="100">
+          <h3 style="margin:0 0 18px;" data-i18n="eco_pork_h">Produção de suínos — 2024 (cabeças)</h3>
+          <div class="rank" id="rank-pork"></div>
+        </div>
+      </div>
+      <p style="margin-top:22px;font-size:0.85rem;color:var(--muted);" data-i18n="eco_rank_note">Fonte: ranking estadual de produção 2024 (Jornal Noroeste / Emater).</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap split">
+      <div class="reveal">
+        <span class="eyebrow"><i data-lucide="wheat" style="width:16px;height:16px;vertical-align:-3px;"></i> Agro</span>
+        <h2 style="margin:12px 0 16px;" data-i18n="eco_agro_h">Muito além do leite e dos suínos</h2>
+        <p class="lead" data-i18n="eco_agro_p">A base agropecuária inclui soja, milho e trigo, somada a agroindústrias de laticínios premiadas, como Tchê Milk e Doceoli Alimentos, vitrines da qualidade local.</p>
+      </div>
+      <div class="reveal" data-delay="120">
+        <div class="imgframe"><div class="ph" data-ph="Lavouras e agroindústria · substitua por foto real"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--green">
+    <div class="wrap section-head center reveal" style="margin-bottom:0;">
+      <span class="eyebrow center" data-i18n="eco_prog_h">Fortalece Santo Cristo & Rotas da Produção</span>
+      <h2 data-i18n="eco_prog_h">Fortalece Santo Cristo & Rotas da Produção</h2>
+      <p class="lead" data-i18n="eco_prog_p">O município incentiva o desenvolvimento com crédito a juro zero, incentivos fiscais, doação de áreas e apoio à infraestrutura rural, além das “Rotas da Produção”, que mostram a força do agro e do turismo rural.</p>
+    </div>
+  </section>
+
+  <div id="footer-slot"></div>
+
+  <script>
+    document.addEventListener('core-ready', async function () {
+      let data;
+      try { data = await (await fetch('data/economia.json')).json(); }
+      catch (e) { console.error(e); return; }
+
+      function render(targetId, rows) {
+        const box = document.getElementById(targetId);
+        if (!box) return;
+        const max = Math.max.apply(null, rows.map(r => r.valor));
+        box.innerHTML = '';
+        rows.forEach(function (r) {
+          const row = document.createElement('div');
+          row.className = 'rank-row' + (r.destaque ? ' is-top' : '');
+          const who = document.createElement('div');
+          who.className = 'who'; who.textContent = r.municipio;
+          const bar = document.createElement('div');
+          bar.className = 'rank-bar';
+          const span = document.createElement('span');
+          span.style.width = Math.round((r.valor / max) * 100) + '%';
+          bar.appendChild(span);
+          const val = document.createElement('div');
+          val.className = 'rank-val';
+          val.textContent = r.valor.toLocaleString('pt-BR');
+          row.appendChild(who); row.appendChild(bar); row.appendChild(val);
+          box.appendChild(row);
+        });
+      }
+      render('rank-milk', data.leite_ranking_2024);
+      render('rank-pork', data.suinos_ranking_2024);
+    });
+  </script>
+</body>
+</html>

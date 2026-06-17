@@ -1,0 +1,220 @@
+[
+  {
+    "nome": "Lago Azul Acqua Park",
+    "categoria": "aquatico",
+    "destaque": true,
+    "local": "Rua Pref. Hartman, 1497 · Bairro Lago Azul",
+    "coords": [-27.8300, -54.6750],
+    "desc": "O maior parque aquático-hotel do noroeste do RS. Piscinas, toboáguas, chalés, camping e restaurante à beira do rio. No local fica o Marco Zero, ponto de fundação do município (1910).",
+    "desc_es": "El mayor parque acuático-hotel del noroeste de RS. Piscinas, toboganes, cabañas, camping y restaurante a orillas del río. Allí está el Marco Cero, sitio de fundación del municipio (1910).",
+    "desc_en": "The largest water park hotel in northwestern RS. Pools, water slides, cabins, camping and a riverside restaurant. Home to the Marco Zero, the town's 1910 founding site.",
+    "links": [
+      { "label": "Site", "url": "https://lagoazulacquapark.inriograndedosul.com/pt/", "icon": "globe" },
+      { "label": "Instagram", "url": "https://www.instagram.com/lagoazulacquaparksantocristo/", "icon": "instagram" }
+    ]
+  },
+  {
+    "nome": "Hotel Fazenda Três Cascatas",
+    "categoria": "hotel",
+    "destaque": true,
+    "local": "Linha Revolta · zona rural (5 km do centro)",
+    "coords": [-27.8600, -54.6400],
+    "desc": "Mais de 100 hectares de mata nativa preservada com parque aquático, toboáguas, cachoeiras, trilhas ecológicas, caverna indígena milenar, cavalgadas, pesque-pague e mais de 150 churrasqueiras. Suítes, chalés e day use de sexta a domingo.",
+    "desc_es": "Más de 100 hectáreas de bosque nativo con parque acuático, cascadas, senderos, caverna indígena milenaria, cabalgatas, pesca y más de 150 parrillas. Suites, cabañas y day use de viernes a domingo.",
+    "desc_en": "Over 100 hectares of native forest with a water park, waterfalls, eco trails, an ancient indigenous cave, horseback riding, fishing and 150+ barbecue spots. Suites, chalets and weekend day use.",
+    "links": [
+      { "label": "Site", "url": "https://trescascatas.com.br", "icon": "globe" },
+      { "label": "Instagram", "url": "https://www.instagram.com/hotelfazenda3cascatas", "icon": "instagram" }
+    ]
+  },
+  {
+    "nome": "Pórtico de Santo Cristo",
+    "categoria": "portico",
+    "destaque": true,
+    "local": "Entrada da cidade",
+    "coords": [-27.8155, -54.6700],
+    "desc": "O cartão de boas-vindas da cidade: um pórtico de inspiração germânica, junto ao monumento a São Cristóvão, que celebra a colonização e a liderança do município na produção de leite e suínos.",
+    "desc_es": "La tarjeta de bienvenida de la ciudad: un pórtico de inspiración germánica, junto al monumento a San Cristóbal, que celebra la colonización y el liderazgo en producción de leche y cerdos.",
+    "desc_en": "The town's welcome landmark: a German-inspired gateway beside the Saint Christopher monument, celebrating the colonization and the city's lead in milk and pork production.",
+    "links": [
+      { "label": "Wikipédia", "url": "https://pt.wikipedia.org/wiki/Santo_Cristo_(Rio_Grande_do_Sul)", "icon": "external-link" }
+    ]
+  },
+  {
+    "nome": "Igreja Matriz Ascensão do Senhor",
+    "categoria": "religioso",
+    "destaque": true,
+    "local": "Centro",
+    "coords": [-27.8239, -54.6628],
+    "desc": "Majestosa, inaugurada em 1958, com duas torres de 73 metros de altura — o ponto mais alto e marcante do horizonte de Santo Cristo.",
+    "desc_es": "Majestuosa, inaugurada en 1958, con dos torres de 73 metros — el punto más alto y emblemático del horizonte de Santo Cristo.",
+    "desc_en": "Majestic, inaugurated in 1958, with two 73-metre towers — the tallest and most striking feature of the Santo Cristo skyline.",
+    "links": []
+  },
+  {
+    "nome": "Museu Municipal",
+    "categoria": "cultura",
+    "destaque": true,
+    "local": "Centro",
+    "coords": [-27.8245, -54.6635],
+    "desc": "Acervo com escultura jesuítica de São José, pinturas russas, armas, instrumentos musicais e artefatos indígenas guaranis e pré-colombianos.",
+    "desc_es": "Acervo con escultura jesuítica de San José, pinturas rusas, armas, instrumentos musicales y artefactos indígenas guaraníes y precolombinos.",
+    "desc_en": "Collection featuring a Jesuit sculpture of Saint Joseph, Russian paintings, weapons, musical instruments and Guarani and pre-Columbian artifacts.",
+    "links": []
+  },
+  {
+    "nome": "Cervejaria Kerberhaus",
+    "categoria": "bebidas",
+    "destaque": true,
+    "local": "RST 472, Km 01",
+    "coords": [-27.8100, -54.6500],
+    "desc": "Cervejaria artesanal que produz pilsen, premium e IPA. O pub serve hambúrgueres, pratos regionais e sobremesas, com música ao vivo aos sábados.",
+    "desc_es": "Cervecería artesanal con pilsen, premium e IPA. El pub ofrece hamburguesas, platos regionales y postres, con música en vivo los sábados.",
+    "desc_en": "Craft brewery making pilsner, premium and IPA beers. The pub serves burgers, regional dishes and desserts, with live music on Saturdays.",
+    "links": []
+  },
+  {
+    "nome": "Sítio Belinha",
+    "categoria": "colonial",
+    "local": "Linha Dona Belinha",
+    "coords": [-27.8500, -54.7000],
+    "desc": "Refúgio rural com chalé, piscina e quiosque com churrasqueira, conhecido pelo vinho artesanal e pelos produtos coloniais da casa.",
+    "links": []
+  },
+  {
+    "nome": "Tchê Milk",
+    "categoria": "agro",
+    "local": "RST 472, Km 01",
+    "coords": [-27.8105, -54.6505],
+    "desc": "Laticínio premiado com medalha de ouro pela mussarela, com showroom aberto a visitantes — vitrine da força leiteira de Santo Cristo.",
+    "links": []
+  },
+  {
+    "nome": "Doceoli Alimentos",
+    "categoria": "agro",
+    "local": "Bom Princípio Baixo",
+    "coords": [-27.7700, -54.7100],
+    "desc": "Indústria de laticínios premiada com medalha de ouro pela mussarela, com showroom de produtos.",
+    "links": []
+  },
+  {
+    "nome": "Santuário de Fátima",
+    "categoria": "religioso",
+    "local": "Linha Rolador Baixo",
+    "coords": [-27.7900, -54.6900],
+    "desc": "Santuário com escultura em madeira de Nossa Senhora de Fátima, obra do renomado escultor José Ferreira Thedim.",
+    "links": []
+  },
+  {
+    "nome": "Grutinha",
+    "categoria": "religioso",
+    "local": "Ao lado da rodoviária",
+    "coords": [-27.8225, -54.6660],
+    "desc": "Gruta construída com cristais de quartzo, ponto de devoção a Nossa Senhora de Lourdes.",
+    "links": []
+  },
+  {
+    "nome": "Parque de Eventos (Enxaimel)",
+    "categoria": "cultura",
+    "local": "Centro",
+    "coords": [-27.8230, -54.6650],
+    "desc": "Sede cultural em prédios de estilo enxaimel, casa do Coral Santa Cecília, do Grupo de Danças Alemãs Blumengarten e do Piquete Ponche Verde.",
+    "links": []
+  },
+  {
+    "nome": "Gruta Indígena",
+    "categoria": "cultura",
+    "local": "Bom Princípio Baixo",
+    "coords": [-27.7710, -54.7110],
+    "desc": "Sítio arqueológico com artefatos guaranis e pré-colombianos, hoje preservados no Museu Municipal.",
+    "links": []
+  },
+  {
+    "nome": "Balneário Irmãos Angst",
+    "categoria": "balneario",
+    "local": "Linha do Rio · Rio Boa Vista",
+    "coords": [-27.8700, -54.6800],
+    "desc": "Balneário à beira do Rio Boa Vista com chalé, camping, campo de futebol e salão de eventos.",
+    "links": []
+  },
+  {
+    "nome": "Balneário Taipa",
+    "categoria": "balneario",
+    "local": "Linha Taquaruçu · Rio Boa Vista",
+    "coords": [-27.8800, -54.6600],
+    "desc": "Camping e chalés à beira do Rio Boa Vista, ideal para o contato com a natureza.",
+    "links": []
+  },
+  {
+    "nome": "Chalés do Lago",
+    "categoria": "hotel",
+    "local": "Bairro Lago Azul",
+    "coords": [-27.8305, -54.6755],
+    "desc": "Chalés charmosos com piscinas privativas e café da manhã, vizinhos ao Lago Azul Acqua Park.",
+    "links": []
+  },
+  {
+    "nome": "La Cabana",
+    "categoria": "hotel",
+    "local": "Linha Alma",
+    "coords": [-27.8400, -54.6200],
+    "desc": "Casa de campo que oferece tranquilidade do interior com conforto.",
+    "links": []
+  },
+  {
+    "nome": "Chalé da Mata",
+    "categoria": "natureza",
+    "local": "Linha Três Lajeados",
+    "coords": [-27.8900, -54.6500],
+    "desc": "Refúgio em meio à mata, com trilhas ecológicas e acesso ao rio.",
+    "links": []
+  },
+  {
+    "nome": "Parque e Memorial Descanso",
+    "categoria": "praca",
+    "local": "Vila Salto",
+    "coords": [-27.8000, -54.6300],
+    "desc": "Área de 6.000 m² com academia ao ar livre, pérgolas, parquinho, pista de caminhada e quadras de vôlei de areia e futsal.",
+    "links": []
+  },
+  {
+    "nome": "Praça da Matriz",
+    "categoria": "praca",
+    "local": "Centro",
+    "coords": [-27.8241, -54.6630],
+    "desc": "Espaço arborizado com pérgolas, espelhos d'água, parquinho, Casa do Papai Noel e feira de artesanato mensal.",
+    "links": []
+  },
+  {
+    "nome": "Praça Wolfram Metzler",
+    "categoria": "praca",
+    "local": "Centro",
+    "coords": [-27.8260, -54.6650],
+    "desc": "Paisagismo com flores e plantas, quadra de futsal, parquinho e a curiosa Árvore Lunar.",
+    "links": []
+  },
+  {
+    "nome": "Centro de Esporte e Lazer Botafogo",
+    "categoria": "esporte",
+    "local": "Centro",
+    "coords": [-27.8280, -54.6600],
+    "desc": "Quadras de futebol e vôlei, pista de caminhada, academia ao ar livre e lago com peixes e patos.",
+    "links": []
+  },
+  {
+    "nome": "YMP Padel",
+    "categoria": "esporte",
+    "local": "Santo Cristo",
+    "coords": [-27.8270, -54.6610],
+    "desc": "Quadras de padel com bem-estar, gastronomia, esporte e lazer.",
+    "links": []
+  },
+  {
+    "nome": "Poço Assombrado",
+    "categoria": "natureza",
+    "local": "Rio Santo Cristo · Linha Saturno",
+    "coords": [-27.8600, -54.6900],
+    "desc": "Recanto cercado de lendas, com relatos de aparições e fenômenos misteriosos — folclore vivo da colônia.",
+    "links": []
+  }
+]

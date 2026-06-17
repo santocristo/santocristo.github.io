@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Santo Cristo - emblema">
+  <defs>
+    <linearGradient id="scBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a8f57"/>
+      <stop offset="0.55" stop-color="#1f7a6e"/>
+      <stop offset="1" stop-color="#1f5f86"/>
+    </linearGradient>
+    <linearGradient id="scWheat" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0c14b"/>
+      <stop offset="1" stop-color="#d99a26"/>
+    </linearGradient>
+  </defs>
+
+  <!-- emblema -->
+  <circle cx="60" cy="60" r="56" fill="url(#scBg)"/>
+  <circle cx="60" cy="60" r="56" fill="none" stroke="#0e3b33" stroke-opacity="0.25" stroke-width="2"/>
+  <circle cx="60" cy="60" r="50" fill="none" stroke="#f7f3e9" stroke-opacity="0.85" stroke-width="1.6"/>
+
+  <!-- arco do portico -->
+  <path d="M28 70 V52 a32 32 0 0 1 64 0 V70" fill="none" stroke="#f7f3e9" stroke-opacity="0.9" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- torres gemeas da Igreja Matriz -->
+  <g fill="#f7f3e9">
+    <polygon points="50,26 46,40 54,40"/>
+    <rect x="46.5" y="40" width="7" height="34" rx="1"/>
+    <polygon points="70,26 66,40 74,40"/>
+    <rect x="66.5" y="40" width="7" height="34" rx="1"/>
+    <!-- cruz central / nave -->
+    <rect x="57" y="46" width="6" height="28" rx="1"/>
+    <rect x="55" y="34" width="10" height="3.4" rx="1"/>
+    <rect x="58.4" y="29" width="3.2" height="13" rx="1"/>
+  </g>
+
+  <!-- gota (leite) -->
+  <path d="M60 56 c5 6 8 9.5 8 13 a8 8 0 0 1 -16 0 c0 -3.5 3 -7 8 -13Z" fill="#bfe6ff" opacity="0.92"/>
+
+  <!-- colinas -->
+  <path d="M9 84 q20 -14 42 -4 q24 11 60 -2 v36 H9 Z" fill="#1c6f4a"/>
+  <path d="M9 92 q26 -10 50 0 q26 9 52 -3 v25 H9 Z" fill="#15583b"/>
+
+  <!-- espigas de trigo -->
+  <g stroke="url(#scWheat)" stroke-width="2.4" stroke-linecap="round" fill="none">
+    <path d="M40 100 q-6 -10 -3 -22"/>
+    <path d="M37 82 l-6 -3 M37 87 l-6 -2 M37 92 l-6 -1 M37 82 l6 -3 M37 87 l6 -2 M37 92 l6 -1"/>
+    <path d="M80 100 q6 -10 3 -22"/>
+    <path d="M83 82 l6 -3 M83 87 l6 -2 M83 92 l6 -1 M83 82 l-6 -3 M83 87 l-6 -2 M83 92 l-6 -1"/>
+  </g>
+</svg>

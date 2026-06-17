@@ -1,0 +1,12 @@
+{
+  "leite_ranking_2024": [
+    { "municipio": "Santo Cristo", "valor": 75198, "destaque": true },
+    { "municipio": "Augusto Pestana", "valor": 59175, "destaque": false },
+    { "municipio": "Ijuí", "valor": 49290, "destaque": false }
+  ],
+  "suinos_ranking_2024": [
+    { "municipio": "Santo Cristo", "valor": 138222, "destaque": true },
+    { "municipio": "Frederico Westphalen", "valor": 132663, "destaque": false },
+    { "municipio": "Rodeio Bonito", "valor": 125730, "destaque": false }
+  ]
+}

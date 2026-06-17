@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Como chegar · Santo Cristo-RS · Portos do Rio Uruguai</title>
+  <meta name="description" content="Como chegar a Santo Cristo-RS: distâncias até Porto Alegre, Santa Rosa e os portos do Rio Uruguai (Porto Mauá, Porto Vera Cruz, Porto Xavier) com travessias para a Argentina." />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Archivo:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <div id="header-slot"></div>
+
+  <section class="page-hero">
+    <div class="wrap">
+      <div class="breadcrumb"><a href="index.html" data-i18n="nav_home">Início</a> · <span data-i18n="nav_getting">Como Chegar</span></div>
+      <h1 data-i18n="come_h">Como chegar</h1>
+      <p class="lead" data-i18n="come_lead">No noroeste do RS, a 516 km de Porto Alegre — e a poucos quilômetros da Argentina pelos portos do Rio Uruguai.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow" data-i18n="come_dist_h">Distâncias e portos</span>
+        <h2 data-i18n="come_dist_h">Distâncias e portos</h2>
+      </div>
+      <table class="dist-table reveal">
+        <thead>
+          <tr>
+            <th data-i18n="come_col_dest">Destino</th>
+            <th data-i18n="come_col_dist">Distância</th>
+            <th data-i18n="come_col_obs">Observação</th>
+          </tr>
+        </thead>
+        <tbody id="dist-body"></tbody>
+      </table>
+      <p style="margin-top:16px;font-size:0.85rem;color:var(--muted);" data-i18n="come_note">Distâncias aproximadas por rodovia. Os portos do Rio Uruguai oferecem travessias de balsa para a Argentina.</p>
+    </div>
+  </section>
+
+  <section class="section section--cream">
+    <div class="wrap split">
+      <div class="reveal">
+        <span class="eyebrow"><i data-lucide="ship" style="width:16px;height:16px;vertical-align:-3px;"></i> Fronteira</span>
+        <h2 style="margin:12px 0 16px;" data-i18n="come_ports_h">Portas para a Argentina</h2>
+        <p class="lead" data-i18n="come_ports_p">A proximidade com Porto Mauá, Porto Vera Cruz e Porto Xavier coloca Santo Cristo na rota da integração com a Argentina, por meio das travessias do Rio Uruguai.</p>
+      </div>
+      <div class="reveal" data-delay="120">
+        <div id="map"></div>
+      </div>
+    </div>
+  </section>
+
+  <div id="footer-slot"></div>
+
+  <script>
+    document.addEventListener('core-ready', async function () {
+      // Tabela de distâncias
+      let rows;
+      try { rows = await (await fetch('data/distancias.json')).json(); }
+      catch (e) { console.error(e); rows = []; }
+      const body = document.getElementById('dist-body');
+      const icons = { porto: 'ship', cidade: 'building-2', capital: 'landmark' };
+      rows.forEach(function (r) {
+        const tr = document.createElement('tr');
+        const td1 = document.createElement('td');
+        td1.innerHTML = '<span class="pill"><i data-lucide="' + (icons[r.tipo] || 'map-pin') + '"></i></span>';
+        td1.querySelector('.pill').appendChild(document.createTextNode(' ' + r.destino));
+        const td2 = document.createElement('td'); td2.textContent = r.km + ' km';
+        const td3 = document.createElement('td'); td3.textContent = r.obs;
+        tr.appendChild(td1); tr.appendChild(td2); tr.appendChild(td3);
+        body.appendChild(tr);
+      });
+      if (window.lucide) lucide.createIcons();
+
+      // Mapa
+      if (window.L && document.getElementById('map')) {
+        const center = [-27.8239, -54.6628];
+        const map = L.map('map', { scrollWheelZoom: false }).setView(center, 9);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+          maxZoom: 19, attribution: '&copy; OpenStreetMap'
+        }).addTo(map);
+        L.marker(center).addTo(map).bindPopup('<strong>Santo Cristo</strong>');
+        const ports = [
+          { n: 'Porto Mauá', c: [-27.5722, -54.6800] },
+          { n: 'Porto Vera Cruz', c: [-27.7150, -54.8300] },
+          { n: 'Porto Xavier', c: [-27.9070, -55.1330] }
+        ];
+        ports.forEach(function (p) { L.marker(p.c).addTo(map).bindPopup('<strong>' + p.n + '</strong>'); });
+      }
+    });
+  </script>
+</body>
+</html>

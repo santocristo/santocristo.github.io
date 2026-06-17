@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contato · Santo Cristo-RS</title>
+  <meta name="description" content="Fale com o portal de Santo Cristo-RS pelo WhatsApp: sugira correções, inclusões de atrativos e melhorias no conteúdo." />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Archivo:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <div id="header-slot"></div>
+
+  <section class="page-hero">
+    <div class="wrap">
+      <div class="breadcrumb"><a href="index.html" data-i18n="nav_home">Início</a> · <span data-i18n="nav_contact">Contato</span></div>
+      <h1 data-i18n="contact_h">Fale com a gente</h1>
+      <p class="lead" data-i18n="contact_lead">Conhece um lugar que merece estar aqui ou encontrou uma informação para corrigir? Envie sua mensagem pelo WhatsApp.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="contact-grid">
+        <div class="contact-aside reveal">
+          <span class="eyebrow" data-i18n="contact_pre">Sua contribuição</span>
+          <h2 data-i18n="contact_aside_h">O que você pode enviar</h2>
+          <p data-i18n="contact_aside_p">Quanto mais detalhes, melhor. Você pode sugerir:</p>
+          <ul class="contact-list">
+            <li><span class="ico"><i data-lucide="pencil"></i></span><span data-i18n="contact_help1">Correções de informações desatualizadas (horários, endereços, telefones).</span></li>
+            <li><span class="ico"><i data-lucide="map-pin-plus"></i></span><span data-i18n="contact_help2">Inclusão de atrativos, eventos, restaurantes ou serviços que faltam.</span></li>
+            <li><span class="ico"><i data-lucide="image"></i></span><span data-i18n="contact_help3">Links ou fotos (com direito de uso) que enriqueçam o conteúdo.</span></li>
+          </ul>
+        </div>
+
+        <div class="wa-card reveal" data-delay="80">
+          <div class="wa-icon"><i data-lucide="message-circle"></i></div>
+          <h2 data-i18n="contact_wa_h">Fale pelo WhatsApp</h2>
+          <p data-i18n="contact_wa_p">Toque no botão para abrir uma conversa já no nosso canal de sugestões.</p>
+          <div class="wa-number">+55 55 98101-9396</div>
+          <div style="margin-top:18px;">
+            <a class="btn btn-wa" id="waBtn" href="https://wa.me/5555981019396" target="_blank" rel="noopener">
+              <i data-lucide="message-circle"></i><span data-i18n="contact_wa_btn">Abrir conversa no WhatsApp</span>
+            </a>
+          </div>
+          <p class="form-hint" data-i18n="contact_wa_note">Atendimento por mensagem. Responderemos assim que possível.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="footer-slot"></div>
+
+  <script>
+    document.addEventListener('core-ready', function () {
+      var btn = document.getElementById('waBtn');
+      if (!btn) return;
+      var msg = 'Olá! Tenho uma sugestão para o portal de Santo Cristo:';
+      btn.href = 'https://wa.me/5555981019396?text=' + encodeURIComponent(msg);
+    });
+  </script>
+</body>
+</html>
