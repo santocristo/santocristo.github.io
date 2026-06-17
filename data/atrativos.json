@@ -46,9 +46,9 @@
     "destaque": true,
     "local": "Centro",
     "coords": [-27.8239, -54.6628],
-    "desc": "Majestosa, inaugurada em 1958, com duas torres de 73 metros de altura — o ponto mais alto e marcante do horizonte de Santo Cristo.",
-    "desc_es": "Majestuosa, inaugurada en 1958, con dos torres de 73 metros — el punto más alto y emblemático del horizonte de Santo Cristo.",
-    "desc_en": "Majestic, inaugurated in 1958, with two 73-metre towers — the tallest and most striking feature of the Santo Cristo skyline.",
+    "desc": "Majestosa, inaugurada em 1958, com duas torres de 73 metros de altura, o ponto mais alto e marcante do horizonte de Santo Cristo.",
+    "desc_es": "Majestuosa, inaugurada en 1958, con dos torres de 73 metros, el punto más alto y emblemático del horizonte de Santo Cristo.",
+    "desc_en": "Majestic, inaugurated in 1958, with two 73-metre towers, the tallest and most striking feature of the Santo Cristo skyline.",
     "links": []
   },
   {
@@ -86,7 +86,7 @@
     "categoria": "agro",
     "local": "RST 472, Km 01",
     "coords": [-27.8105, -54.6505],
-    "desc": "Laticínio premiado com medalha de ouro pela mussarela, com showroom aberto a visitantes — vitrine da força leiteira de Santo Cristo.",
+    "desc": "Laticínio premiado com medalha de ouro pela mussarela, com showroom aberto a visitantes, vitrine da força leiteira de Santo Cristo.",
     "links": []
   },
   {
@@ -214,7 +214,7 @@
     "categoria": "natureza",
     "local": "Rio Santo Cristo · Linha Saturno",
     "coords": [-27.8600, -54.6900],
-    "desc": "Recanto cercado de lendas, com relatos de aparições e fenômenos misteriosos — folclore vivo da colônia.",
+    "desc": "Recanto cercado de lendas, com relatos de aparições e fenômenos misteriosos: folclore vivo da colônia.",
     "links": []
   }
 ]

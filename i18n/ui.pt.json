@@ -36,7 +36,7 @@
 
   "home_about_pre": "Bem-vindo a Santo Cristo",
   "home_about_h": "A terra da prosperidade colonial",
-  "home_about_p1": "Emancipada em 1955 e marcada pela colonização alemã, Santo Cristo preserva a língua, a fé e os costumes dos antepassados — e transforma trabalho em prosperidade.",
+  "home_about_p1": "Emancipada em 1955 e marcada pela colonização alemã, Santo Cristo preserva a língua, a fé e os costumes dos antepassados, e transforma trabalho em prosperidade.",
   "home_about_p2": "Reconhecida nacionalmente pela força do campo, é hexacampeã estadual na produção de leite e suínos, unindo tradição, agroindústria e turismo rural.",
   "home_stat_pop": "habitantes (estimativa 2025)",
   "home_stat_area": "km² de território fértil",
@@ -55,7 +55,7 @@
 
   "home_loc_pre": "Localização estratégica",
   "home_loc_h": "Às portas da Argentina",
-  "home_loc_p": "No noroeste do RS, próxima aos portos do Rio Uruguai — Porto Mauá, Porto Vera Cruz e Porto Xavier — com travessias para a Argentina.",
+  "home_loc_p": "No noroeste do RS, próxima aos portos do Rio Uruguai (Porto Mauá, Porto Vera Cruz e Porto Xavier), com travessias para a Argentina.",
   "home_loc_cta": "Ver como chegar",
 
   "home_final_h": "Venha conhecer Santo Cristo",
@@ -70,9 +70,9 @@
   "eco_lead": "A vocação produtiva que faz de Santo Cristo referência no Rio Grande do Sul.",
   "eco_champ_pre": "Hexacampeã estadual",
   "eco_champ_h": "Líder do RS em leite e suínos",
-  "eco_champ_p": "Em 2024, pelo sexto ano consecutivo, Santo Cristo foi o maior produtor de leite e de suínos do Rio Grande do Sul — superando municípios muito maiores em população.",
-  "eco_milk_h": "Produção de leite — 2024 (mil litros)",
-  "eco_pork_h": "Produção de suínos — 2024 (cabeças)",
+  "eco_champ_p": "Em 2024, pelo sexto ano consecutivo, Santo Cristo foi o maior produtor de leite e de suínos do Rio Grande do Sul, superando municípios muito maiores em população.",
+  "eco_milk_h": "Produção de leite: 2024 (mil litros)",
+  "eco_pork_h": "Produção de suínos: 2024 (cabeças)",
   "eco_milk_stat": "milhões de litros de leite por ano",
   "eco_milk_day": "mil litros por dia",
   "eco_pork_stat": "cabeças de suínos",
@@ -100,7 +100,7 @@
   "his_culture_p": "A herança alemã pulsa no Grupo de Danças Blumengarten, no Coral Santa Cecília, nos prédios em estilo enxaimel do Parque de Eventos e no Festival de Interpretação da Canção (FIC). Descendentes de italianos e espanhóis também compõem o mosaico cultural.",
 
   "come_h": "Como chegar",
-  "come_lead": "No noroeste do RS, a 516 km de Porto Alegre — e a poucos quilômetros da Argentina pelos portos do Rio Uruguai.",
+  "come_lead": "No noroeste do RS, a 516 km de Porto Alegre, e a poucos quilômetros da Argentina pelos portos do Rio Uruguai.",
   "come_dist_h": "Distâncias e portos",
   "come_col_dest": "Destino",
   "come_col_dist": "Distância",

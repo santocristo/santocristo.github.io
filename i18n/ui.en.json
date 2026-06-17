@@ -36,7 +36,7 @@
 
   "home_about_pre": "Welcome to Santo Cristo",
   "home_about_h": "The land of colonial prosperity",
-  "home_about_p1": "Emancipated in 1955 and shaped by German colonization, Santo Cristo preserves the language, faith and customs of its ancestors — turning hard work into prosperity.",
+  "home_about_p1": "Emancipated in 1955 and shaped by German colonization, Santo Cristo preserves the language, faith and customs of its ancestors, turning hard work into prosperity.",
   "home_about_p2": "Nationally recognized for its rural strength, it is a six-time state champion in milk and pork production, blending tradition, agro-industry and rural tourism.",
   "home_stat_pop": "inhabitants (2025 estimate)",
   "home_stat_area": "km² of fertile land",
@@ -55,7 +55,7 @@
 
   "home_loc_pre": "Strategic location",
   "home_loc_h": "At Argentina's doorstep",
-  "home_loc_p": "In northwestern RS, near the Uruguay River ports — Porto Mauá, Porto Vera Cruz and Porto Xavier — with crossings to Argentina.",
+  "home_loc_p": "In northwestern RS, near the Uruguay River ports (Porto Mauá, Porto Vera Cruz and Porto Xavier), with crossings to Argentina.",
   "home_loc_cta": "See how to get here",
 
   "home_final_h": "Come and discover Santo Cristo",
@@ -70,9 +70,9 @@
   "eco_lead": "The productive calling that makes Santo Cristo a benchmark in Rio Grande do Sul.",
   "eco_champ_pre": "Six-time state champion",
   "eco_champ_h": "RS leader in milk and pork",
-  "eco_champ_p": "In 2024, for the sixth year running, Santo Cristo was the largest producer of milk and pork in Rio Grande do Sul — outpacing far more populous municipalities.",
-  "eco_milk_h": "Milk production — 2024 (thousand liters)",
-  "eco_pork_h": "Swine production — 2024 (head)",
+  "eco_champ_p": "In 2024, for the sixth year running, Santo Cristo was the largest producer of milk and pork in Rio Grande do Sul, outpacing far more populous municipalities.",
+  "eco_milk_h": "Milk production: 2024 (thousand liters)",
+  "eco_pork_h": "Swine production: 2024 (head)",
   "eco_milk_stat": "million liters of milk per year",
   "eco_milk_day": "thousand liters per day",
   "eco_pork_stat": "head of swine",
@@ -100,7 +100,7 @@
   "his_culture_p": "The German heritage beats on in the Blumengarten dance group, the Santa Cecília Choir, the half-timbered (enxaimel) buildings of the Events Park and the Song Interpretation Festival (FIC). Italian and Spanish descendants also shape the cultural mosaic.",
 
   "come_h": "Getting here",
-  "come_lead": "In northwestern RS, 516 km from Porto Alegre — and just kilometers from Argentina via the Uruguay River ports.",
+  "come_lead": "In northwestern RS, 516 km from Porto Alegre, and just kilometers from Argentina via the Uruguay River ports.",
   "come_dist_h": "Distances and ports",
   "come_col_dest": "Destination",
   "come_col_dist": "Distance",
