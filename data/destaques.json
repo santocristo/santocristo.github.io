@@ -8,7 +8,7 @@
     "desc_es": "La mayor cascada longitudinal del mundo, con cerca de 1,8 km a lo largo del Río Uruguay, dentro del Parque Estadual do Turvo, el mayor parque estatal de RS y último refugio del yaguareté.",
     "desc_en": "The world's largest longitudinal waterfall, about 1.8 km along the Uruguay River inside Parque Estadual do Turvo, the largest state park in RS and the last refuge of the jaguar.",
     "img": "assets/fotos/salto-yucuma.jpg",
-    "credito": "PREENCHER NA TASK 6",
+    "credito": "Foto: Vanderlei Debastiani, Domínio Público, via Wikimedia Commons",
     "links": []
   },
   {
@@ -20,7 +20,7 @@
     "desc_es": "Sitio histórico jesuítico-guaraní declarado Patrimonio Mundial por la UNESCO. Las ruinas de la iglesia de 1735 y el Museo de las Misiones guardan la memoria de los Siete Pueblos, con espectáculo de luz y sonido por la noche.",
     "desc_en": "A Jesuit-Guarani historic site listed as a UNESCO World Heritage Site. The 1735 church ruins and the Missions Museum preserve the memory of the Seven Peoples, with a nighttime sound-and-light show.",
     "img": "assets/fotos/sao-miguel.jpg",
-    "credito": "PREENCHER NA TASK 6",
+    "credito": "Foto: Philippe Torelly, CC BY-SA 4.0, via Wikimedia Commons",
     "links": []
   },
   {
@@ -31,8 +31,6 @@
     "desc": "Complexo cultural imersivo de cerca de 64 mil m² que conta a história da evolução da agricultura no Brasil com tecnologia e experiências sensoriais. Aberto ao público em dezembro de 2023.",
     "desc_es": "Complejo cultural inmersivo de cerca de 64 mil m² que cuenta la historia de la evolución de la agricultura en Brasil con tecnología y experiencias sensoriales. Abierto al público en diciembre de 2023.",
     "desc_en": "An immersive cultural complex of about 64,000 m² telling the story of agriculture in Brazil through technology and sensory experiences. Opened to the public in December 2023.",
-    "img": "assets/fotos/mea.jpg",
-    "credito": "PREENCHER NA TASK 6",
     "links": [
       { "label": "Site", "url": "https://www.mea.org.br", "icon": "globe" }
     ]
@@ -46,7 +44,7 @@
     "desc_es": "Cascada que nace del lado brasileño y se extiende casi dos kilómetros hasta el territorio argentino. El fuerte sonido del agua explica su nombre.",
     "desc_en": "A waterfall that begins on the Brazilian side and stretches nearly two kilometers into Argentine territory. The loud roar of the water gives it its name.",
     "img": "assets/fotos/roncador.jpg",
-    "credito": "PREENCHER NA TASK 6",
+    "credito": "Foto: Felipe P, CC BY-SA 4.0, via Wikimedia Commons",
     "links": []
   },
   {
@@ -58,7 +56,7 @@
     "desc_es": "Los puertos del Río Uruguay conectan el Noroeste Gaúcho con Argentina mediante travesías en balsa, en un escenario de pesca, gastronomía ribereña e integración cultural.",
     "desc_en": "The Uruguay River ports connect Northwest RS to Argentina by ferry crossings, amid fishing, riverside cuisine and cultural exchange.",
     "img": "assets/fotos/rio-uruguai.jpg",
-    "credito": "PREENCHER NA TASK 6",
+    "credito": "Foto: Geogast, CC BY-SA 3.0, via Wikimedia Commons",
     "links": []
   },
 
