@@ -21,6 +21,8 @@
     portico:    { icon: 'landmark',     color: '#b07d1e', label: 'cat_portico' },
     porto:      { icon: 'ship',         color: '#15455f', label: 'cat_porto' },
     esporte:    { icon: 'medal',        color: '#b5482b', label: 'cat_esporte' },
+    regiao:      { icon: 'mountain-snow', color: '#2f6f5a', label: 'cat_regiao' },
+    agroturismo: { icon: 'grape',         color: '#7a2e4a', label: 'cat_agroturismo' },
   };
 
   let PLACES = [];

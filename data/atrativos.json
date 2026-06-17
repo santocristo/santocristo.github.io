@@ -95,7 +95,10 @@
     "local": "Bom Princípio Baixo",
     "coords": [-27.7700, -54.7100],
     "desc": "Indústria de laticínios premiada com medalha de ouro pela mussarela, com showroom de produtos.",
-    "links": []
+    "links": [
+      { "label": "Site", "url": "https://doceoli.com.br", "icon": "globe" },
+      { "label": "Instagram", "url": "https://www.instagram.com/doceolialimentos/", "icon": "instagram" }
+    ]
   },
   {
     "nome": "Santuário de Fátima",
@@ -216,5 +219,61 @@
     "coords": [-27.8600, -54.6900],
     "desc": "Recanto cercado de lendas, com relatos de aparições e fenômenos misteriosos: folclore vivo da colônia.",
     "links": []
+  },
+  {
+    "nome": "Salto do Yucumã",
+    "categoria": "regiao",
+    "destaque": true,
+    "local": "Parque Estadual do Turvo, Derrubadas",
+    "coords": [-27.1469, -53.8956],
+    "desc": "A maior queda d'água longitudinal do mundo, com cerca de 1,8 km ao longo do Rio Uruguai, dentro do maior parque estadual do RS e último refúgio da onça-pintada no estado.",
+    "desc_es": "La mayor cascada longitudinal del mundo, con cerca de 1,8 km a lo largo del Río Uruguay, dentro del mayor parque estatal de RS y último refugio del yaguareté en el estado.",
+    "desc_en": "The world's largest longitudinal waterfall, about 1.8 km along the Uruguay River, inside the largest state park in RS and the last refuge of the jaguar in the state.",
+    "links": []
+  },
+  {
+    "nome": "Ruínas de São Miguel Arcanjo",
+    "categoria": "regiao",
+    "destaque": true,
+    "local": "São Miguel das Missões",
+    "coords": [-28.5547, -54.5561],
+    "desc": "Sítio histórico jesuítico-guarani, Patrimônio Mundial da UNESCO. As ruínas da igreja de 1735 e o Museu das Missões guardam a memória dos Sete Povos, com espetáculo de som e luz à noite.",
+    "desc_es": "Sitio histórico jesuítico-guaraní, Patrimonio Mundial de la UNESCO. Las ruinas de la iglesia de 1735 y el Museo de las Misiones guardan la memoria de los Siete Pueblos, con espectáculo de luz y sonido por la noche.",
+    "desc_en": "A Jesuit-Guarani historic site and UNESCO World Heritage Site. The 1735 church ruins and the Missions Museum preserve the memory of the Seven Peoples, with a nighttime sound-and-light show.",
+    "links": []
+  },
+  {
+    "nome": "MEA Memorial da Evolução Agrícola",
+    "categoria": "regiao",
+    "destaque": true,
+    "local": "Horizontina",
+    "coords": [-27.6266, -54.3080],
+    "desc": "Complexo cultural imersivo de cerca de 64 mil m² que conta a história da evolução da agricultura no Brasil com tecnologia e experiências sensoriais. Aberto ao público em dezembro de 2023.",
+    "desc_es": "Complejo cultural inmersivo de cerca de 64 mil m² que cuenta la historia de la evolución de la agricultura en Brasil con tecnología y experiencias sensoriales. Abierto al público en diciembre de 2023.",
+    "desc_en": "An immersive cultural complex of about 64,000 m² telling the story of agriculture in Brazil through technology and sensory experiences. Opened to the public in December 2023.",
+    "links": []
+  },
+  {
+    "nome": "Salto do Roncador",
+    "categoria": "regiao",
+    "local": "Porto Vera Cruz",
+    "coords": [-27.7150, -54.8300],
+    "desc": "Queda d'água que nasce no lado brasileiro e se estende por quase dois quilômetros até o território argentino. O som forte das águas explica o nome.",
+    "desc_es": "Cascada que nace del lado brasileño y se extiende casi dos kilómetros hasta el territorio argentino. El fuerte sonido del agua explica su nombre.",
+    "desc_en": "A waterfall that begins on the Brazilian side and stretches nearly two kilometers into Argentine territory. The loud roar of the water gives it its name.",
+    "links": []
+  },
+  {
+    "nome": "Colhe e Pague Zamboni",
+    "categoria": "agroturismo",
+    "destaque": true,
+    "local": "Linha Bom Princípio, zona rural",
+    "coords": [-27.7700, -54.7100],
+    "desc": "Tradição de colher a própria uva direto das parreiras da família Zamboni. Um passeio de agroturismo que une o sabor da safra, a vida no interior e a hospitalidade colonial.",
+    "desc_es": "Tradición de cosechar la propia uva directo de las parras de la familia Zamboni. Un paseo de agroturismo que une el sabor de la cosecha, la vida rural y la hospitalidad colonial.",
+    "desc_en": "The tradition of picking your own grapes straight from the Zamboni family's vines. An agritourism outing blending the taste of the harvest, country life and colonial hospitality.",
+    "links": [
+      { "label": "Instagram", "url": "https://www.instagram.com/p/DSsz57WFeyB/", "icon": "instagram" }
+    ]
   }
 ]
