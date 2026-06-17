@@ -1,5 +1,5 @@
 /* ============================================================
-   Portal Santo Cristo — core: partials, i18n, nav, reveal
+   Portal Santo Cristo · core: partials, i18n, nav, reveal
    ============================================================ */
 window.SANTOCRISTO = window.SANTOCRISTO || { lang: 'pt', t: {} };
 const SUPPORTED_LANGS = ['pt', 'es', 'en'];

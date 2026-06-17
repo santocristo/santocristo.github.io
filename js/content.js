@@ -1,5 +1,5 @@
 /* ============================================================
-   Portal Santo Cristo — conteúdo data-driven
+   Portal Santo Cristo · conteúdo data-driven
    Lê data/atrativos.json e renderiza cards + mapa Leaflet.
    Todos os dados são de primeira parte (arquivos do próprio site).
    ============================================================ */
@@ -22,7 +22,7 @@
     porto:      { icon: 'ship',         color: '#15455f', label: 'cat_porto' },
     esporte:    { icon: 'medal',        color: '#b5482b', label: 'cat_esporte' },
     regiao:      { icon: 'mountain-snow', color: '#2f6f5a', label: 'cat_regiao' },
-    agroturismo: { icon: 'grape',         color: '#7a2e4a', label: 'cat_agroturismo' },
+    agroturismo: { icon: 'sprout',        color: '#6a3d9a', label: 'cat_agroturismo' },
   };
 
   let PLACES = [];
