@@ -19,9 +19,9 @@
     "destaque": true,
     "local": "Linha Revolta · zona rural (5 km do centro)",
     "coords": [-27.8600, -54.6400],
-    "desc": "Mais de 100 hectares de mata nativa preservada com parque aquático, toboáguas, cachoeiras, trilhas ecológicas, caverna indígena milenar, cavalgadas, pesque-pague e mais de 150 churrasqueiras. Suítes, chalés e day use de sexta a domingo.",
-    "desc_es": "Más de 100 hectáreas de bosque nativo con parque acuático, cascadas, senderos, caverna indígena milenaria, cabalgatas, pesca y más de 150 parrillas. Suites, cabañas y day use de viernes a domingo.",
-    "desc_en": "Over 100 hectares of native forest with a water park, waterfalls, eco trails, an ancient indigenous cave, horseback riding, fishing and 150+ barbecue spots. Suites, chalets and weekend day use.",
+    "desc": "Mais de 100 hectares de mata nativa preservada com parque aquático, toboáguas, cachoeiras, trilhas ecológicas, caverna indígena milenar, cavalgadas, pesque-pague e mais de 150 churrasqueiras. Funciona também como balneário e opção de lazer, com day use de sexta a domingo, além de suítes e chalés.",
+    "desc_es": "Más de 100 hectáreas de bosque nativo con parque acuático, cascadas, senderos, caverna indígena milenaria, cabalgatas, pesca y más de 150 parrillas. También funciona como balneario y opción de ocio, con day use de viernes a domingo, además de suites y cabañas.",
+    "desc_en": "Over 100 hectares of native forest with a water park, waterfalls, eco trails, an ancient indigenous cave, horseback riding, fishing and 150+ barbecue spots. It also serves as a swimming and leisure spot, with weekend day use, plus suites and chalets.",
     "links": [
       { "label": "Site", "url": "https://trescascatas.com.br", "icon": "globe" },
       { "label": "Instagram", "url": "https://www.instagram.com/hotelfazenda3cascatas", "icon": "instagram" }
