@@ -15,6 +15,7 @@
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="js/app.js" defer></script>
   <script src="js/content.js" defer></script>
+  <script src="js/servicos.js" defer></script>
 </head>
 <body>
   <div id="header-slot"></div>
@@ -31,6 +32,32 @@
     <div class="wrap">
       <div class="filters" id="filters"></div>
       <div class="grid grid-3" id="atrativos-grid"></div>
+    </div>
+  </section>
+
+  <section class="section section--cream">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow" data-i18n="atr_stay_pre">Onde dormir</span>
+        <h2 data-i18n="atr_stay_h">Hospedagem</h2>
+        <p data-i18n="atr_stay_p">De hotéis no centro a chalés e refúgios rurais. Toque em "Ver no mapa" para abrir a localização no Google Maps.</p>
+      </div>
+      <div class="grid grid-3" id="hospedagem-grid"></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow" data-i18n="atr_eat_pre">Onde comer</span>
+        <h2 data-i18n="atr_eat_h">Opções gastronômicas</h2>
+        <p data-i18n="atr_eat_p">Restaurantes, churrascarias, pizzarias, lancherias, cafés e o melhor da culinária colonial e germânica da cidade.</p>
+      </div>
+      <div class="grid grid-3" id="gastronomia-grid"></div>
+      <p style="margin-top:22px;font-size:0.85rem;color:var(--muted);">
+        <span data-i18n="atr_src_note">Fonte: Informações Turísticas da Prefeitura de Santo Cristo.</span>
+        <a href="https://www.santocristo.rs.gov.br/site/conteudos/5708-pinformaccedilotildees-turiacutesticasp" target="_blank" rel="noopener" data-i18n="atr_src_link">Ver página oficial</a>.
+      </p>
     </div>
   </section>
 

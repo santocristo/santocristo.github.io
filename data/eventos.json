@@ -1,0 +1,172 @@
+{
+  "destaques": [{
+    "nome": "Carnaval Serrano",
+    "tag": "Festa popular",
+    "tag_es": "Fiesta popular",
+    "tag_en": "Street carnival",
+    "quando": "Fevereiro",
+    "quando_es": "Febrero",
+    "quando_en": "February",
+    "ph": "Carnaval Serrano · foliões nas ruas de Santo Cristo",
+    "desc": "Um dos carnavais de rua mais animados do Noroeste Gaúcho. Com desfiles, baterias e blocos que tomam as ruas de Santo Cristo, a festa atrai foliões da cidade e de toda a região. Edições passadas ganharam destaque na imprensa e na TV regional, consolidando o Carnaval Serrano como um dos grandes cartões de visita da cidade no verão.",
+    "desc_es": "Uno de los carnavales de calle más animados del Noroeste Gaúcho. Con desfiles, baterías y comparsas que toman las calles de Santo Cristo, la fiesta atrae a personas de la ciudad y de toda la región. Ediciones pasadas tuvieron destaque en la prensa y la TV regional, consolidando el Carnaval Serrano como una de las grandes cartas de presentación de la ciudad en verano.",
+    "desc_en": "One of the liveliest street carnivals in Northwest RS. With parades, drum sections and groups taking over the streets of Santo Cristo, the celebration draws revelers from the town and across the region. Past editions were featured in the regional press and TV, making Carnaval Serrano one of the city's great summer showcases.",
+    "links": [
+      { "label": "Página no Facebook", "url": "https://www.facebook.com/carnavalserrano/?locale=pt_BR", "icon": "facebook" },
+      { "label": "Reportagem na TV (Globoplay)", "url": "https://globoplay.globo.com/v/4796637/", "icon": "play" },
+      { "label": "Edição histórica (Globoplay)", "url": "https://globoplay.globo.com/v/2397541/", "icon": "play" }
+    ]
+  },
+  {
+    "nome": "Oktoberfest de Santo Cristo",
+    "tag": "Cultura germânica",
+    "tag_es": "Cultura germánica",
+    "tag_en": "German culture",
+    "quando": "Outubro",
+    "quando_es": "Octubre",
+    "quando_en": "October",
+    "ph": "Oktoberfest · chope, danças e enxaimel",
+    "desc": "Um dos maiores orgulhos de Santo Cristo. A Oktoberfest celebra a herança alemã da cidade com chope, gastronomia colonial, bandas típicas, danças folclóricas e a escolha das soberanas, no cenário em estilo enxaimel do Parque de Eventos. É a festa que melhor traduz a identidade germânica do município e atrai visitantes de toda a região.",
+    "desc_es": "Uno de los mayores orgullos de Santo Cristo. La Oktoberfest celebra la herencia alemana de la ciudad con chopp, gastronomía colonial, bandas típicas, danzas folclóricas y la elección de las soberanas, en el escenario estilo entramado del Parque de Eventos. Es la fiesta que mejor traduce la identidad germánica del municipio y atrae visitantes de toda la región.",
+    "desc_en": "One of Santo Cristo's greatest sources of pride. The Oktoberfest celebrates the city's German heritage with draft beer, colonial cuisine, traditional bands, folk dances and the crowning of the festival queens, in the half-timbered setting of the Events Park. It is the celebration that best expresses the town's German identity and draws visitors from across the region.",
+    "links": [
+      { "label": "Instagram oficial", "url": "https://www.instagram.com/oktoberfestsantocristooficial/", "icon": "instagram" }
+    ]
+  },
+  {
+    "nome": "ExpoAgro Santo Cristo 2027",
+    "tag": "Feira agropecuária",
+    "tag_es": "Feria agropecuaria",
+    "tag_en": "Agribusiness fair",
+    "quando": "2027",
+    "quando_es": "2027",
+    "quando_en": "2027",
+    "ph": "ExpoAgro · a vitrine do agro de Santo Cristo",
+    "desc": "A grande feira que celebra a vocação agropecuária da capital estadual do leite e dos suínos. A ExpoAgro reúne exposições de animais, máquinas e agroindústria, rodadas de negócios, shows e gastronomia, atraindo produtores e visitantes de toda a região. A edição de 2027 promete ser um dos maiores eventos do calendário da cidade.",
+    "desc_es": "La gran feria que celebra la vocación agropecuaria de la capital estatal de la leche y los cerdos. La ExpoAgro reúne exposiciones de animales, máquinas y agroindustria, ruedas de negocios, shows y gastronomía, atrayendo a productores y visitantes de toda la región. La edición de 2027 promete ser uno de los mayores eventos del calendario de la ciudad.",
+    "desc_en": "The major fair celebrating the agribusiness vocation of the state capital of milk and pork. ExpoAgro brings together livestock, machinery and agro-industry exhibitions, business rounds, concerts and food, drawing producers and visitors from across the region. The 2027 edition promises to be one of the city's biggest events.",
+    "links": [
+      { "label": "Site oficial", "url": "https://expoagrosantocristo.com.br", "icon": "globe" },
+      { "label": "Instagram oficial", "url": "https://www.instagram.com/expoagrosantocristo/", "icon": "instagram" }
+    ]
+  }],
+  "anuais": [
+    {
+      "nome": "Aniversário do Município",
+      "tag": "Cívico",
+      "tag_es": "Cívico",
+      "tag_en": "Civic",
+      "quando": "28 de janeiro",
+      "quando_es": "28 de enero",
+      "quando_en": "January 28",
+      "ph": "Aniversário de Santo Cristo",
+      "icon": "cake",
+      "desc": "Data magna da cidade, marca a emancipação político-administrativa em 1955, com programação cívica e festiva que celebra a história da colonização.",
+      "desc_es": "Fecha magna de la ciudad, marca la emancipación político-administrativa en 1955, con programación cívica y festiva que celebra la historia de la colonización.",
+      "desc_en": "The city's main civic date, marking its political emancipation in 1955, with civic and festive events celebrating the history of the settlement."
+    },
+    {
+      "nome": "Rodeio Ponche Verde e CTG",
+      "tag": "Tradição gaúcha",
+      "tag_es": "Tradición gaucha",
+      "tag_en": "Gaucho tradition",
+      "quando": "20 a 22 de fevereiro",
+      "quando_es": "20 a 22 de febrero",
+      "quando_en": "February 20 to 22",
+      "ph": "Rodeio crioulo e tradição gaúcha",
+      "icon": "tent",
+      "desc": "Três dias de tradição campeira com provas de rodeio, danças, fandango e gastronomia gaúcha promovidos pelo CTG local, reunindo invernadas e visitantes.",
+      "desc_es": "Tres días de tradición campera con pruebas de rodeo, danzas, fandango y gastronomía gaucha promovidos por el CTG local, reuniendo invernadas y visitantes.",
+      "desc_en": "Three days of countryside tradition with rodeo events, dances, fandango and gaucho cuisine hosted by the local CTG, gathering dance groups and visitors."
+    },
+    {
+      "nome": "Rodeio Piquete Alma Gaúcha",
+      "tag": "Tradição gaúcha",
+      "tag_es": "Tradición gaucha",
+      "tag_en": "Gaucho tradition",
+      "quando": "21 a 23 de agosto",
+      "quando_es": "21 a 23 de agosto",
+      "quando_en": "August 21 to 23",
+      "ph": "Rodeio no Parque de Eventos",
+      "icon": "tent",
+      "desc": "No Parque de Eventos, o rodeio do Piquete Alma Gaúcha celebra a cultura do campo com provas, shows e o melhor da culinária tradicional do Rio Grande do Sul.",
+      "desc_es": "En el Parque de Eventos, el rodeo del Piquete Alma Gaúcha celebra la cultura del campo con pruebas, shows y lo mejor de la cocina tradicional de Rio Grande do Sul.",
+      "desc_en": "At the Events Park, the Piquete Alma Gaúcha rodeo celebrates rural culture with competitions, shows and the best of Rio Grande do Sul's traditional cuisine."
+    },
+    {
+      "nome": "Novemberfest",
+      "tag": "Cultura germânica",
+      "tag_es": "Cultura germánica",
+      "tag_en": "German culture",
+      "quando": "Novembro",
+      "quando_es": "Noviembre",
+      "quando_en": "November",
+      "ph": "Novemberfest · música e tradição",
+      "icon": "beer",
+      "desc": "Mais uma celebração da cultura germânica viva da cidade, com música, dança e a hospitalidade que marca as comunidades do interior de Santo Cristo.",
+      "desc_es": "Otra celebración de la cultura germánica viva de la ciudad, con música, danza y la hospitalidad que marca a las comunidades del interior de Santo Cristo.",
+      "desc_en": "Another celebration of the city's living German culture, with music, dance and the hospitality that defines Santo Cristo's rural communities."
+    },
+    {
+      "nome": "FIC e Musikfest",
+      "tag": "Música",
+      "tag_es": "Música",
+      "tag_en": "Music",
+      "quando": "Ao longo do ano",
+      "quando_es": "A lo largo del año",
+      "quando_en": "Throughout the year",
+      "ph": "Festival de Interpretação da Canção",
+      "icon": "music",
+      "desc": "O Festival de Interpretação da Canção (FIC) e o Musikfest colocam a música no centro da agenda, revelando talentos e mantendo viva a tradição musical da região.",
+      "desc_es": "El Festival de Interpretación de la Canción (FIC) y el Musikfest ponen la música en el centro de la agenda, revelando talentos y manteniendo viva la tradición musical de la región.",
+      "desc_en": "The Song Interpretation Festival (FIC) and the Musikfest put music at the center of the calendar, revealing new talent and keeping the region's musical tradition alive."
+    }
+  ],
+  "agenda": [
+    {
+      "quando": "28 jan", "quando_es": "28 ene", "quando_en": "Jan 28",
+      "o_que": "Aniversário do Município", "o_que_es": "Aniversario del Municipio", "o_que_en": "Municipality Anniversary",
+      "onde": "Santo Cristo", "onde_es": "Santo Cristo", "onde_en": "Santo Cristo"
+    },
+    {
+      "quando": "Fevereiro", "quando_es": "Febrero", "quando_en": "February",
+      "o_que": "Carnaval Serrano", "o_que_es": "Carnaval Serrano", "o_que_en": "Carnaval Serrano",
+      "onde": "Ruas da cidade", "onde_es": "Calles de la ciudad", "onde_en": "City streets"
+    },
+    {
+      "quando": "20 a 22 fev", "quando_es": "20 a 22 feb", "quando_en": "Feb 20 to 22",
+      "o_que": "Rodeio Ponche Verde e CTG", "o_que_es": "Rodeo Ponche Verde y CTG", "o_que_en": "Ponche Verde Rodeo and CTG",
+      "onde": "CTG local", "onde_es": "CTG local", "onde_en": "Local CTG"
+    },
+    {
+      "quando": "30 mai", "quando_es": "30 may", "quando_en": "May 30",
+      "o_que": "Escolha das soberanas da Oktoberfest", "o_que_es": "Elección de las soberanas de la Oktoberfest", "o_que_en": "Oktoberfest queens selection",
+      "onde": "Rolador Alto", "onde_es": "Rolador Alto", "onde_en": "Rolador Alto"
+    },
+    {
+      "quando": "21 a 23 ago", "quando_es": "21 a 23 ago", "quando_en": "Aug 21 to 23",
+      "o_que": "Rodeio Piquete Alma Gaúcha", "o_que_es": "Rodeo Piquete Alma Gaúcha", "o_que_en": "Piquete Alma Gaúcha Rodeo",
+      "onde": "Parque de Eventos", "onde_es": "Parque de Eventos", "onde_en": "Events Park"
+    },
+    {
+      "quando": "17 out", "quando_es": "17 oct", "quando_en": "Oct 17",
+      "o_que": "Baile da Oktober", "o_que_es": "Baile de la Oktober", "o_que_en": "Oktober Dance",
+      "onde": "Parque de Eventos", "onde_es": "Parque de Eventos", "onde_en": "Events Park"
+    },
+    {
+      "quando": "14 nov", "quando_es": "14 nov", "quando_en": "Nov 14",
+      "o_que": "Novemberfest", "o_que_es": "Novemberfest", "o_que_en": "Novemberfest",
+      "onde": "Bom Princípio de Baixo", "onde_es": "Bom Princípio de Baixo", "onde_en": "Bom Princípio de Baixo"
+    },
+    {
+      "quando": "19 nov", "quando_es": "19 nov", "quando_en": "Nov 19",
+      "o_que": "Jantar do Musikfest", "o_que_es": "Cena del Musikfest", "o_que_en": "Musikfest dinner",
+      "onde": "Santo Cristo", "onde_es": "Santo Cristo", "onde_en": "Santo Cristo"
+    },
+    {
+      "quando": "2027", "quando_es": "2027", "quando_en": "2027",
+      "o_que": "ExpoAgro Santo Cristo", "o_que_es": "ExpoAgro Santo Cristo", "o_que_en": "ExpoAgro Santo Cristo",
+      "onde": "Parque de Eventos", "onde_es": "Parque de Eventos", "onde_en": "Events Park"
+    }
+  ]
+}

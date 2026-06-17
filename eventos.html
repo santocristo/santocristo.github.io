@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eventos & Agenda · Santo Cristo-RS · Carnaval Serrano e festas tradicionais</title>
+  <meta name="description" content="Agenda de eventos de Santo Cristo-RS: o tradicional Carnaval Serrano, rodeios, Oktoberfest, Novemberfest, Musikfest e o calendário oficial de festas comunitárias do município." />
+  <meta property="og:title" content="Eventos & Agenda · Santo Cristo-RS" />
+  <meta property="og:description" content="Carnaval Serrano, rodeios e festas alemãs: os grandes eventos que fazem de Santo Cristo um destino o ano inteiro." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Archivo:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="js/app.js" defer></script>
+  <script src="js/eventos.js" defer></script>
+</head>
+<body>
+  <div id="header-slot"></div>
+
+  <section class="page-hero">
+    <div class="wrap">
+      <div class="breadcrumb"><a href="index.html" data-i18n="nav_home">Início</a> · <span data-i18n="nav_events">Eventos</span></div>
+      <h1 data-i18n="evt_h">Eventos & Agenda</h1>
+      <p class="lead" data-i18n="evt_lead">Do badalado Carnaval Serrano aos rodeios e às festas alemãs, Santo Cristo tem motivos para visitar o ano inteiro.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow" data-i18n="evt_feature_pre">Eventos que movimentam a cidade</span>
+        <h2 data-i18n="evt_feature_h">Grandes eventos anuais</h2>
+        <p data-i18n="evt_feature_p">Festas que atraem público de toda a região e colocam Santo Cristo no mapa do turismo de eventos do Noroeste Gaúcho.</p>
+      </div>
+      <div id="evento-destaque"></div>
+      <div class="grid grid-3" id="eventos-anuais" style="margin-top:28px;"></div>
+    </div>
+  </section>
+
+  <section class="section section--cream">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow" data-i18n="evt_agenda_pre">Calendário 2026</span>
+        <h2 data-i18n="evt_agenda_h">Agenda do ano</h2>
+        <p data-i18n="evt_agenda_p">Uma seleção dos destaques de 2026. O calendário completo, com as festas de cada comunidade, é mantido pela Prefeitura.</p>
+      </div>
+      <ul class="agenda reveal" id="eventos-agenda"></ul>
+      <div class="event-cta reveal">
+        <a class="btn btn-dark" href="https://www.santocristo.rs.gov.br/site/conteudos/3524-pcalendaac" target="_blank" rel="noopener">
+          <i data-lucide="calendar-days"></i><span data-i18n="evt_official_btn">Ver calendário oficial completo</span>
+        </a>
+        <p class="form-hint" style="margin:0;" data-i18n="evt_official_note">Fonte: Calendário de Eventos da Prefeitura de Santo Cristo. Datas sujeitas a alteração; confirme junto aos organizadores.</p>
+      </div>
+    </div>
+  </section>
+
+  <div id="footer-slot"></div>
+</body>
+</html>

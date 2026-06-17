@@ -1,0 +1,38 @@
+{
+  "hospedagem": [
+    { "nome": "Lago Azul Parque Hotel", "tipo": "hotel", "endereco": "Rua Prefeito Hartmann, 149 · Centro", "fone": "(55) 3541-1035" },
+    { "nome": "Hotel Frantz", "tipo": "hotel", "endereco": "Rua Tenente Jung, 582 · Centro", "fone": "(55) 3541-1063" },
+    { "nome": "Hotel Santo Cristense", "tipo": "hotel", "endereco": "Rua Padre Augusto, 71 · Centro", "fone": "(55) 3541-1222" },
+    { "nome": "Hotel Pousada Milenium", "tipo": "pousada", "endereco": "Rua Amandaú, 97 · Centro", "fone": "(55) 99618-5808" },
+    { "nome": "Chalés do Lago", "tipo": "chale", "endereco": "Rua Prefeito Jacob Hartmann · Bairro Lago Azul", "fone": "(55) 99653-8709" },
+    { "nome": "Hotel-Fazenda Três Cascatas", "tipo": "fazenda", "endereco": "Linha Revolta · zona rural", "fone": "(55) 99978-8783" },
+    { "nome": "Chalé da Mata", "tipo": "chale", "endereco": "Linha Três Lajeados · zona rural", "fone": "(55) 99700-1333" },
+    { "nome": "La Cabana", "tipo": "chale", "endereco": "Linha Alma · zona rural", "fone": "(55) 98454-0051" },
+    { "nome": "Sítio Belinha", "tipo": "sitio", "endereco": "Linha Dona Belinha · zona rural", "fone": "(55) 99927-5003" }
+  ],
+  "gastronomia": [
+    { "nome": "Clube Serrano", "tipo": "restaurante", "endereco": "Rua Tenente Jung, 617 · Centro", "fone": "(55) 99649-4149" },
+    { "nome": "Restaurante Frantz", "tipo": "restaurante", "endereco": "Rua Tenente Jung, 582 · Centro", "fone": "(55) 3541-1063" },
+    { "nome": "Dom Restaurante", "tipo": "restaurante", "endereco": "Rua Santa Rosa, 73 · Centro", "fone": "(55) 98448-0241" },
+    { "nome": "Churrascaria do Marcelo", "tipo": "churrascaria", "endereco": "Rua Dom Pedro II, 1278 · Centro", "fone": "(55) 99626-9122" },
+    { "nome": "Pit Stop Restaurante e Lancheria", "tipo": "restaurante", "endereco": "Rua Tenente Jung, 484 · Centro", "fone": "(55) 99631-3455" },
+    { "nome": "Restaurante A.R", "tipo": "restaurante", "endereco": "Rua Vendelino Holz, 511 · Centro", "fone": "(55) 99635-3620" },
+    { "nome": "Zuhause Casa e Sabor", "tipo": "restaurante", "endereco": "Santo Cristo · RS", "fone": "(55) 99938-4323" },
+    { "nome": "Ponto Certo", "tipo": "restaurante", "endereco": "Santo Cristo · RS", "fone": "(55) 99731-3021" },
+    { "nome": "Lancheria Wagner", "tipo": "lancheria", "endereco": "Rua Dr. Celso A. Hartmann · Centro", "fone": "(55) 99927-5461" },
+    { "nome": "Big Lanches", "tipo": "lancheria", "endereco": "Rua Olavo Bilac, 946 · Centro", "fone": "(55) 99911-3500" },
+    { "nome": "Pastelaria e Lancheria Água na Boca", "tipo": "lancheria", "endereco": "Rua Vereador Bandero, 112 · Centro", "fone": "(55) 98447-6550" },
+    { "nome": "Santo Frango", "tipo": "lancheria", "endereco": "Santo Cristo · RS", "fone": "(55) 99926-2944" },
+    { "nome": "Pizzaria Porto Santo", "tipo": "pizzaria", "endereco": "Rua Dom Pedro II · Centro", "fone": "" },
+    { "nome": "Pizzaria do Paulista", "tipo": "pizzaria", "endereco": "Rua Marechal Floriano, 3387 · Centro", "fone": "(55) 99963-8556" },
+    { "nome": "Flávio's Pizzas", "tipo": "pizzaria", "endereco": "Rua Prefeito Léo Hartmann, 2769 · Centro", "fone": "(55) 98449-8935" },
+    { "nome": "Palito's Lancheria", "tipo": "hamburgueria", "endereco": "Rua Dom Pedro II · Centro", "fone": "(55) 3541-2761" },
+    { "nome": "La Parilla Hamburgueria", "tipo": "hamburgueria", "endereco": "Santo Cristo · RS", "fone": "(55) 99999-1914" },
+    { "nome": "Dog da Marta", "tipo": "hamburgueria", "endereco": "Praça Wolfram Metzler · Centro", "fone": "(55) 99977-8675" },
+    { "nome": "Sorveteria Milk Shake Mix", "tipo": "sorveteria", "endereco": "Rua Dom Pedro II · Centro", "fone": "(55) 99658-5818" },
+    { "nome": "AmePan, Café e Padaria", "tipo": "cafe", "endereco": "Rua Dom Pedro II, 2137 · Centro", "fone": "(55) 99950-7055" },
+    { "nome": "Kerberhaus Pub", "tipo": "bar", "endereco": "RST 472, Contorno · Km 01", "fone": "(55) 98454-7628" },
+    { "nome": "Paradouro 472", "tipo": "bar", "endereco": "RST 472 · Santo Cristo", "fone": "(55) 99932-7512" },
+    { "nome": "YMP Padel", "tipo": "esporte", "endereco": "Rua La Salle, 180 · Centro", "fone": "(55) 98128-0033" }
+  ]
+}
