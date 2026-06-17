@@ -1,0 +1,124 @@
+[
+  {
+    "nome": "Salto do Yucumã",
+    "bloco": "icones",
+    "tag": "regiao",
+    "cidade": "Derrubadas, RS",
+    "desc": "A maior queda d'água longitudinal do mundo, com cerca de 1,8 km ao longo do Rio Uruguai, dentro do Parque Estadual do Turvo, o maior parque estadual do RS e último refúgio da onça-pintada no estado.",
+    "desc_es": "La mayor cascada longitudinal del mundo, con cerca de 1,8 km a lo largo del Río Uruguay, dentro del Parque Estadual do Turvo, el mayor parque estatal de RS y último refugio del yaguareté.",
+    "desc_en": "The world's largest longitudinal waterfall, about 1.8 km along the Uruguay River inside Parque Estadual do Turvo, the largest state park in RS and the last refuge of the jaguar.",
+    "img": "assets/fotos/salto-yucuma.jpg",
+    "credito": "PREENCHER NA TASK 6",
+    "links": []
+  },
+  {
+    "nome": "Ruínas de São Miguel Arcanjo",
+    "bloco": "icones",
+    "tag": "regiao",
+    "cidade": "São Miguel das Missões, RS",
+    "desc": "Sítio histórico jesuítico-guarani tombado como Patrimônio Mundial pela UNESCO. As ruínas da igreja de 1735 e o Museu das Missões guardam a memória dos Sete Povos das Missões, com espetáculo de som e luz à noite.",
+    "desc_es": "Sitio histórico jesuítico-guaraní declarado Patrimonio Mundial por la UNESCO. Las ruinas de la iglesia de 1735 y el Museo de las Misiones guardan la memoria de los Siete Pueblos, con espectáculo de luz y sonido por la noche.",
+    "desc_en": "A Jesuit-Guarani historic site listed as a UNESCO World Heritage Site. The 1735 church ruins and the Missions Museum preserve the memory of the Seven Peoples, with a nighttime sound-and-light show.",
+    "img": "assets/fotos/sao-miguel.jpg",
+    "credito": "PREENCHER NA TASK 6",
+    "links": []
+  },
+  {
+    "nome": "MEA Memorial da Evolução Agrícola",
+    "bloco": "icones",
+    "tag": "regiao",
+    "cidade": "Horizontina, RS",
+    "desc": "Complexo cultural imersivo de cerca de 64 mil m² que conta a história da evolução da agricultura no Brasil com tecnologia e experiências sensoriais. Aberto ao público em dezembro de 2023.",
+    "desc_es": "Complejo cultural inmersivo de cerca de 64 mil m² que cuenta la historia de la evolución de la agricultura en Brasil con tecnología y experiencias sensoriales. Abierto al público en diciembre de 2023.",
+    "desc_en": "An immersive cultural complex of about 64,000 m² telling the story of agriculture in Brazil through technology and sensory experiences. Opened to the public in December 2023.",
+    "img": "assets/fotos/mea.jpg",
+    "credito": "PREENCHER NA TASK 6",
+    "links": [
+      { "label": "Site", "url": "https://www.mea.org.br", "icon": "globe" }
+    ]
+  },
+  {
+    "nome": "Salto do Roncador",
+    "bloco": "icones",
+    "tag": "regiao",
+    "cidade": "Porto Vera Cruz, RS",
+    "desc": "Queda d'água que nasce no lado brasileiro e se estende por quase dois quilômetros até o território argentino. O som forte das águas explica o nome.",
+    "desc_es": "Cascada que nace del lado brasileño y se extiende casi dos kilómetros hasta el territorio argentino. El fuerte sonido del agua explica su nombre.",
+    "desc_en": "A waterfall that begins on the Brazilian side and stretches nearly two kilometers into Argentine territory. The loud roar of the water gives it its name.",
+    "img": "assets/fotos/roncador.jpg",
+    "credito": "PREENCHER NA TASK 6",
+    "links": []
+  },
+  {
+    "nome": "Rio Uruguai e portos de fronteira",
+    "bloco": "icones",
+    "tag": "regiao",
+    "cidade": "Porto Xavier, Porto Mauá e Porto Vera Cruz",
+    "desc": "Os portos do Rio Uruguai conectam o Noroeste Gaúcho à Argentina por travessias de balsa, num cenário de pesca, gastronomia ribeirinha e integração cultural.",
+    "desc_es": "Los puertos del Río Uruguay conectan el Noroeste Gaúcho con Argentina mediante travesías en balsa, en un escenario de pesca, gastronomía ribereña e integración cultural.",
+    "desc_en": "The Uruguay River ports connect Northwest RS to Argentina by ferry crossings, amid fishing, riverside cuisine and cultural exchange.",
+    "img": "assets/fotos/rio-uruguai.jpg",
+    "credito": "PREENCHER NA TASK 6",
+    "links": []
+  },
+
+  {
+    "nome": "Colhe e Pague Zamboni",
+    "bloco": "sabores",
+    "tag": "agroturismo",
+    "cidade": "Santo Cristo, Linha Bom Princípio",
+    "desc": "Tradição de colher a própria uva direto das parreiras da família Zamboni. Um passeio de agroturismo que une o sabor da safra, a vida no interior e a hospitalidade colonial.",
+    "desc_es": "Tradición de cosechar la propia uva directo de las parras de la familia Zamboni. Un paseo de agroturismo que une el sabor de la cosecha, la vida rural y la hospitalidad colonial.",
+    "desc_en": "The tradition of picking your own grapes straight from the Zamboni family's vines. An agritourism outing blending the taste of the harvest, country life and colonial hospitality.",
+    "links": [
+      { "label": "Instagram", "url": "https://www.instagram.com/p/DSsz57WFeyB/", "icon": "instagram" },
+      { "label": "Facebook", "url": "https://www.facebook.com/jacnewsoficial/videos/912501028010830/", "icon": "facebook" }
+    ],
+    "embeds": [
+      { "type": "instagram", "url": "https://www.instagram.com/p/DSsz57WFeyB/" }
+    ]
+  },
+  {
+    "nome": "Doceoli Alimentos",
+    "bloco": "sabores",
+    "tag": "agro",
+    "cidade": "Santo Cristo, RS",
+    "desc": "Indústria de alimentos nascida em 1998, hoje uma das grandes da região, com biscoitos, lácteos, lasanhas, pizzas e salgados que levam o nome de Santo Cristo para todo o Brasil.",
+    "desc_es": "Industria de alimentos nacida en 1998, hoy una de las grandes de la región, con galletas, lácteos, lasañas, pizzas y salados que llevan el nombre de Santo Cristo por todo Brasil.",
+    "desc_en": "A food company founded in 1998, now one of the region's largest, with cookies, dairy, lasagnas, pizzas and savory snacks that carry the Santo Cristo name across Brazil.",
+    "links": [
+      { "label": "Site", "url": "https://doceoli.com.br", "icon": "globe" },
+      { "label": "Instagram", "url": "https://www.instagram.com/doceolialimentos/", "icon": "instagram" }
+    ]
+  },
+  {
+    "nome": "Tché Milk",
+    "bloco": "sabores",
+    "tag": "agro",
+    "cidade": "Santo Cristo, RST 472, Km 01",
+    "desc": "Laticínio premiado com medalha de ouro pela mussarela, com showroom aberto a visitantes, vitrine da força leiteira de Santo Cristo.",
+    "desc_es": "Lácteo premiado con medalla de oro por la mozzarella, con showroom abierto a visitantes, vitrina de la fuerza lechera de Santo Cristo.",
+    "desc_en": "An award-winning dairy (gold medal for its mozzarella) with a showroom open to visitors, a showcase of Santo Cristo's dairy strength.",
+    "links": []
+  },
+  {
+    "nome": "Cervejaria Kerberhaus",
+    "bloco": "sabores",
+    "tag": "bebidas",
+    "cidade": "Santo Cristo, RST 472, Km 01",
+    "desc": "Cervejaria artesanal que produz pilsen, premium e IPA. O pub serve hambúrgueres, pratos regionais e sobremesas, com música ao vivo aos sábados.",
+    "desc_es": "Cervecería artesanal que produce pilsen, premium e IPA. El pub sirve hamburguesas, platos regionales y postres, con música en vivo los sábados.",
+    "desc_en": "A craft brewery making pilsner, premium and IPA beers. The pub serves burgers, regional dishes and desserts, with live music on Saturdays.",
+    "links": []
+  },
+  {
+    "nome": "Vinho colonial do Sítio Belinha",
+    "bloco": "sabores",
+    "tag": "colonial",
+    "cidade": "Santo Cristo, Linha Dona Belinha",
+    "desc": "Refúgio rural conhecido pelo vinho artesanal e pelos produtos coloniais da casa, com chalé, piscina e quiosque com churrasqueira.",
+    "desc_es": "Refugio rural conocido por el vino artesanal y los productos coloniales de la casa, con cabaña, piscina y quiosco con parrilla.",
+    "desc_en": "A rural retreat known for its homemade wine and colonial products, with a chalet, pool and barbecue kiosk.",
+    "links": []
+  }
+]
