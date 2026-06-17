@@ -1,0 +1,29 @@
+[
+  {
+    "nome": "Aeroporto Regional Sepé Tiaraju",
+    "cidade": "Santo Ângelo",
+    "iata": "GEL",
+    "km": 90,
+    "obs": "Aeroporto comercial mais próximo, com voos da Azul e da Gol para Porto Alegre e São Paulo.",
+    "obs_es": "Aeropuerto comercial más cercano, con vuelos de Azul y Gol a Porto Alegre y São Paulo.",
+    "obs_en": "Nearest commercial airport, with Azul and Gol flights to Porto Alegre and São Paulo."
+  },
+  {
+    "nome": "Aeroporto Luís Alberto Lehr",
+    "cidade": "Santa Rosa",
+    "iata": "SRA",
+    "km": 20,
+    "obs": "Aeroporto regional na cidade-polo vizinha.",
+    "obs_es": "Aeropuerto regional en la ciudad vecina.",
+    "obs_en": "Regional airport in the neighboring hub city."
+  },
+  {
+    "nome": "Aeroporto Internacional Salgado Filho",
+    "cidade": "Porto Alegre",
+    "iata": "POA",
+    "km": 516,
+    "obs": "Principal porta de entrada internacional do Rio Grande do Sul.",
+    "obs_es": "Principal puerta de entrada internacional de Rio Grande do Sul.",
+    "obs_en": "Main international gateway of Rio Grande do Sul."
+  }
+]

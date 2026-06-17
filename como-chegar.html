@@ -47,6 +47,17 @@
   </section>
 
   <section class="section section--cream">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow"><i data-lucide="plane" style="width:16px;height:16px;vertical-align:-3px;"></i> <span data-i18n="come_air_h">Aeroportos mais próximos</span></span>
+        <h2 data-i18n="come_air_h">Aeroportos mais próximos</h2>
+        <p data-i18n="come_air_p">O aeroporto comercial mais próximo é o de Santo Ângelo.</p>
+      </div>
+      <div class="grid grid-3" id="air-grid"></div>
+    </div>
+  </section>
+
+  <section class="section">
     <div class="wrap split">
       <div class="reveal">
         <span class="eyebrow"><i data-lucide="ship" style="width:16px;height:16px;vertical-align:-3px;"></i> Fronteira</span>
@@ -80,6 +91,30 @@
         body.appendChild(tr);
       });
       if (window.lucide) lucide.createIcons();
+
+      // Aeroportos
+      let airports = [];
+      try { airports = await (await fetch('data/aeroportos.json')).json(); }
+      catch (e) { console.error(e); }
+      const lang = window.SANTOCRISTO.lang;
+      const airGrid = document.getElementById('air-grid');
+      if (airGrid) {
+        airports.forEach(function (a) {
+          const obs = (lang !== 'pt' && a['obs_' + lang]) ? a['obs_' + lang] : a.obs;
+          const card = document.createElement('article');
+          card.className = 'card reveal';
+          card.innerHTML =
+            '<div class="card-body">' +
+              '<h3>' + a.nome + ' <span class="iata">' + a.iata + '</span></h3>' +
+              '<div class="card-meta"><i data-lucide="map-pin"></i>' + a.cidade + ' · ' + a.km + ' km</div>' +
+              '<p></p>' +
+            '</div>';
+          card.querySelector('p').textContent = obs;
+          airGrid.appendChild(card);
+        });
+        if (window.lucide) lucide.createIcons();
+        if (window.__reobserveReveal) window.__reobserveReveal(airGrid);
+      }
 
       // Mapa
       if (window.L && document.getElementById('map')) {
